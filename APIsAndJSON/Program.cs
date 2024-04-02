@@ -4,7 +4,25 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
-        }
+            //create RonVSKanye objects
+            RonVSKanyeAPI.KanyeQuotes();
+
+            RonVSKanyeAPI.RonSwanQuotes();
+
+
+
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                RonVSKanyeAPI.KanyeQuotes();
+                RonVSKanyeAPI.RonSwanQuotes();
+                Console.WriteLine();
+                Console.WriteLine();
+            }
+
+
+            Console.ReadLine();
+        }//endmain
     }
 }
